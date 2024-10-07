@@ -20,11 +20,12 @@ public class RemovingDuplicatesCnt
 				}
 			}
 		}
+		System.out.println(sb);
 		return cnt;
 	}
 	public static void main(String[] args) 
 	{
-		String str="xyz";
+		String str="cbacdcbc";
 		System.out.println(isRemoved(str));
 	}
 }

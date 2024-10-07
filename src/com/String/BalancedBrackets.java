@@ -34,10 +34,10 @@ public class BalancedBrackets
 	}
 	public static void main(String[] args) 
 	{
-		String str="{{}}}";
+		String str="{{}}";
 		if(isTrue(str))
 		{
-			System.out.println("true");
+			System.out.println("true"+str+"");
 		}
 		else
 		{
